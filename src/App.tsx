@@ -3,8 +3,6 @@ import './App.css';
 import { getPeriodForHour, getRandomMessage } from './quotes';
 import { getGradientForTime } from './background';
 
-const NAME = 'Supriya'; // change this to whatever you want it to say
-
 interface TimeParts {
   hours: number;
   minutes: number;
@@ -102,8 +100,6 @@ function App() {
             Another one →
           </button>
         </div>
-
-        <p className="signoff">— for you, {NAME}</p>
       </div>
     </div>
   );
